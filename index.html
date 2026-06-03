@@ -3,15 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bloom & Co. Flower Shop</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
 </head>
 <body>
+    <header class="site-header">
+        <a class="logo" href="#">Bloom & Co.</a>
+        <nav aria-label="Main navigation">
+            <a href="#bouquets">Bouquets</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">Fresh flowers daily</p>
+                <h1>Handmade bouquets for every bright moment.</h1>
+                <p class="hero-text">Visit our local flower shop for seasonal arrangements, same-day gifts, and custom blooms made with care.</p>
+                <a class="button" href="#bouquets">Shop Bouquets</a>
+            </div>
+        </section>
 
-    <h1>Flower Store!</h1>
+        <section class="section" id="bouquets">
+            <div class="section-heading">
+                <p class="eyebrow">Best sellers</p>
+                <h2>Featured Bouquets</h2>
+            </div>
 
+            <div class="product-grid">
+                <article class="product-card selected">
+                    <span class="tag">Popular</span>
+                    <h3>Sunrise Basket</h3>
+                    <p>Golden daisies, coral blooms, and fresh greenery.</p>
+                    <strong>$38</strong>
+                    <button type="button">Selected</button>
+                </article>
 
-<script src="main.js"></script>
+                <article class="product-card">
+                    <span class="tag">Romantic</span>
+                    <h3>Rose Garden</h3>
+                    <p>Soft pink petals arranged for anniversaries and dates.</p>
+                    <strong>$45</strong>
+                    <button type="button">Select</button>
+                </article>
+
+                <article class="product-card">
+                    <span class="tag">Seasonal</span>
+                    <h3>Market Mix</h3>
+                    <p>A cheerful mix of the freshest flowers in the shop.</p>
+                    <strong>$32</strong>
+                    <button type="button">Select</button>
+                </article>
+            </div>
+        </section>
+
+        <section class="section services" id="services">
+            <div>
+                <p class="eyebrow">What we do</p>
+                <h2>Flowers made simple.</h2>
+            </div>
+            <ul>
+                <li>Same-day local delivery</li>
+                <li>Wedding and event arrangements</li>
+                <li>Custom bouquets by color or occasion</li>
+            </ul>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div>
+                <p class="eyebrow">Contact us</p>
+                <h2>Order your bouquet today.</h2>
+                <p>Call, email, or stop by the shop. We are open Monday through Saturday.</p>
+            </div>
+            <address>
+                24 Garden Lane<br>
+                Tel Aviv<br>
+                <a href="tel:+972501234567">+972 50 123 4567</a><br>
+                <a href="mailto:hello@bloomandco.com">hello@bloomandco.com</a>
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <p>Bloom & Co. Flower Shop</p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
